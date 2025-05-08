@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1234567890abcdef",
+    "type": "ui_button",
+    "z": "abcd1234",
+    "name": "Mon Bouton",
+    "group": "abcd1234",
+    "order": 1,
+    "width": 6,
+    "height": 2,
+    "passthru": false,
+    "label": "Cliquez ici",
+    "color": "#fff",
+    "bgcolor": "#4CAF50",
+    "icon": "",
+    "payload": "On",
+    "payloadType": "str",
+    "topic": "button1",
+    "x": 500,
+    "y": 200,
+    "wires": [["abcd1234"]]
+  },
+  {
+    "id": "abcd1234",
+    "type": "debug",
+    "z": "abcd1234",
+    "name": "Debug",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 700,
+    "y": 200,
+    "wires": []
+  }
+]
